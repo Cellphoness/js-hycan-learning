@@ -1,0 +1,33 @@
+Arguments: 
+  /usr/local/bin/node /usr/local/bin/yarn add rxjs
+
+PATH: 
+  /Users/fengjunxi/.rvm/gems/ruby-2.4.0/bin:/Users/fengjunxi/.rvm/gems/ruby-2.4.0@global/bin:/Users/fengjunxi/.rvm/rubies/ruby-2.4.0/bin:/Users/fengjunxi/.local/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Library/Apple/usr/bin:/Applications/Postgres.app/Contents/Versions/latest/bin:/Users/fengjunxi/.rvm/gems/ruby-2.4.0/bin:/Users/fengjunxi/.rvm/gems/ruby-2.4.0@global/bin:/Users/fengjunxi/.rvm/rubies/ruby-2.4.0/bin:/Users/fengjunxi/.local/bin:/Users/fengjunxi/.cargo/bin:/Users/fengjunxi/.rvm/bin
+
+Yarn version: 
+  1.22.10
+
+Node version: 
+  14.15.0
+
+Platform: 
+  darwin x64
+
+Trace: 
+  Error: connect ECONNREFUSED 116.0.89.227:443
+      at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1146:16)
+
+npm manifest: 
+  {
+    "name": "rxjs-exam",
+    "version": "1.0.0",
+    "description": "rxjs学习",
+    "main": "index.js",
+    "license": "MIT"
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile

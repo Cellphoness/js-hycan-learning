@@ -1,0 +1,13 @@
+{
+  "name": "rxjs-exam",
+  "version": "1.0.0",
+  "description": "rxjs学习",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^0.24.0",
+    "request": "^2.88.2",
+    "request-promise": "^4.2.6",
+    "rxjs": "^7.5.1"
+  }
+}
