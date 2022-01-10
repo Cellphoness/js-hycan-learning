@@ -2,7 +2,7 @@
  * @Author: Cellphoness
  * @Date: 2022-01-09 15:44:37
  * @LastEditors: Cellphoness
- * @LastEditTime: 2022-01-10 17:07:49
+ * @LastEditTime: 2022-01-10 17:44:18
  * @FilePath: /learn-js/rxjs/README.md
  * @Description: 
 -->
@@ -70,9 +70,7 @@ setTimeout(() => { observable.unsubscribe()}, 500);
 <br />
 ### 4 运用operator 4.1、合并几个信号。4.2、依次执行几个信号
 打开 code4.js完成
-
 <br />
 <br />
-
 ### 5 axios实战
 打开 code5.js完成

@@ -50,6 +50,18 @@ const { Observable } = require('rxjs')
 function getRequest(url) {
   /* type your code here*/
 }
+getRequest('https://wxtestapplet.gac-nio.com/community/recommend/front/v3.1.4/list?current=1&recommendListSize=0&size=15')
+.subscribe({
+  next: val => {
+      console.log(val)
+  },
+  error: e => {
+      console.log('on error', e)
+  },
+  complete: () => {
+      console.log('on complete')
+  }
+})
 
 // 2.2
 var responseObject = null
